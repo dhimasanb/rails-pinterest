@@ -5,4 +5,9 @@ class PinsController < ApplicationController
   def new
     @pin = Pin.new
   end
+
+  def create
+    @pin = Pin.new(pin_params)
+  end
+
 end
