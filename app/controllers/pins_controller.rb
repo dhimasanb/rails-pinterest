@@ -22,6 +22,9 @@ class PinsController < ApplicationController
     end
   end
 
+  def edit
+  end
+
   private
 
   def pin_params
